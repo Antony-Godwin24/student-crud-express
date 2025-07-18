@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+body{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color:lightblue;
+    width:100%;
+    align-items: center;
+    color:azure;
+}
+
+nav h1{
+    margin-right:800px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav h1 a{
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+    padding:20px;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.head{
+    margin-top:50px;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#ask{
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+    font-size: 15px;
+}
+
+.forms-div{
+    border:2px solid black;
+    width:60%;
+    background-color: blue;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.forms-div h1{
+    color:white;
+    margin: auto;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.forms-div form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forms-div label{
+    color:white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom:20px;
+}
+
+.forms-div p{
+    margin: auto;
+    font-size:20px;
+    color:white;
+    margin-top: 20px;
+}
+
+.forms-div p a{
+    color:burlywood;
+}
+
+.forms-div button{
+    background-color: black;
+    border:2px solid white;
+}
+
+.forms-div button:hover{
+    border:2px solid black;
+}
+
+.list{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.list button{
+    background-color: lightblue;
+    border:2px solid black;
+    border-radius:5px;
+}
+
+#wlcm{
+    font-size: 40px;
+}
+
+#who{
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+li{
+    list-style: none;
+}
+
